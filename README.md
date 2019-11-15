@@ -1,6 +1,8 @@
 # Analysis-and-visualization-with-R
 Here I've included a number of R scripts for working with R data.
 
+## Visualization
+
 - [Venn diagrams](#venn-diagrams)
   - [1. Read in the data](#1-read-in-the-data)
   - [2. Summarize by environment (site-year combination)](#2-summarize-by-environment--site-year-combination-)
