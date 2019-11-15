@@ -46,10 +46,11 @@ names(venn.df2) <- c("L.2016","L.2017","M.2017","S.2017")
 venn.df3 <- decostand(venn.df2, "pa")
 ```
 
-#### 4. Venn diagram for the canola root microbiome. Export at 5.75 x 5.75.
+#### 4. Venn diagram for the canola root microbiome.
 `````
 set.seed(10)
 venn.fit <- euler(venn.df3)
 eulerr_options(pointsize = 15)
 plot(venn.fit, fills = scales::alpha(c("cadetblue2","darkorchid1","darkseagreen2","khaki2"),0.5), quantities = T, lty = 0, legend = list(labels = c("L.2016","L.2017","M.2017","S.2017")))
 `````
+<img src="https://user-images.githubusercontent.com/44586553/68962285-d39e9e80-0799-11ea-834b-ba9aa8669793.jpg" width="400" height="300">
