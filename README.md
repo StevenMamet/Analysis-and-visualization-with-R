@@ -1,14 +1,11 @@
 # Analysis-and-visualization-with-R
 Here I've included a number of R scripts for working with R data.
 
-- [Analysis-and-visualization-with-R](#analysis-and-visualization-with-r)
-    + [Venn diagrams](#venn-diagrams)
-      - [1. Read in the data](#1-read-in-the-data)
-      - [2. Summarize by environment (site-year combination)](#2-summarize-by-environment--site-year-combination-)
-      - [3. Transpose, relabel column names, and convert to presence-absence](#3-transpose--relabel-column-names--and-convert-to-presence-absence)
-      - [4. Venn diagram for the canola root microbiome.](#4-venn-diagram-for-the-canola-root-microbiome)
-
-<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
+- [Venn diagrams](#venn-diagrams)
+  - [1. Read in the data](#1-read-in-the-data)
+  - [2. Summarize by environment (site-year combination)](#2-summarize-by-environment--site-year-combination-)
+  - [3. Transpose, relabel column names, and convert to presence-absence](#3-transpose--relabel-column-names--and-convert-to-presence-absence)
+  - [4. Venn diagram for the canola root microbiome.](#4-venn-diagram-for-the-canola-root-microbiome)
 
 ### Venn diagrams
 
