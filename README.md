@@ -7,6 +7,13 @@ Here I've included a number of R scripts for working with R data.
   - [3. Transpose, relabel column names, and convert to presence-absence](#3-transpose--relabel-column-names--and-convert-to-presence-absence)
   - [4. Venn diagram for the canola root microbiome.](#4-venn-diagram-for-the-canola-root-microbiome)
 
+
+- [Radial phylogenetic trees with relative abundances](#radial-phylogenetic-trees-with-relative-abundances)
+  - [1. Read in the data](#1-read-in-the-data)
+  - [2. Deal with R adding X's to the abundance df during processing](#2-deal-with-r-adding-X's-to-the-abundance-df-during-processing)
+  - [3. Transpose, relabel column names, and convert to presence-absence](#3-transpose--relabel-column-names--and-convert-to-presence-absence)
+  - [4. Venn diagram for the canola root microbiome.](#4-venn-diagram-for-the-canola-root-microbiome)
+
 ---
 
 ### Venn diagrams
@@ -266,7 +273,7 @@ merge5$abundance <- merge5$abu.den + merge5$abu.num
 merge5 <- merge5[,-c(3:5)]
 ```
 
-Plot the tree. See (https://yulab-smu.github.io/treedata-book/chapter1.html) for help. I've provided two options here. 1. you can plot with extra space at the root of the tree if you'd like to add text, etc. there. 2. plot the tree normally.
+Plot the tree. See https://yulab-smu.github.io/treedata-book/chapter1.html for help. I've provided two options here. 1. you can plot with extra space at the root of the tree if you'd like to add text, etc. there. 2. plot the tree normally.
 
 Option 1: plot the tree with extra space at the root:
 
