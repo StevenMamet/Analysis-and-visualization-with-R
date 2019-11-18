@@ -540,3 +540,5 @@ p <- ggplot(data = hare, aes(x = year, y = mean))+
 `
 p + transition_reveal(year)
 `
+
+![Hare](https://user-images.githubusercontent.com/44586553/69080607-eddab580-0a01-11ea-9d35-f71221e779f8.gif)
