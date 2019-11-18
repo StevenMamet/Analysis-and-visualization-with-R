@@ -18,7 +18,7 @@ Full disclosure: I love how the tidyverse has made manipulating R data a dream, 
   * [5. Now to create the phylogenetic tree to plot and add sample information](#5-now-to-create-the-phylogenetic-tree-to-plot-and-add-sample-information)
   
 - [Stacked barplots](#stacked-barplots)
-  * [1. Read in the [data](https://www.dropbox.com/s/ns1wlpg7zkdkxca/ulrich.df.csv?dl=0)](#1-read-in-the--data--https---wwwdropboxcom-s-ns1wlpg7zkdkxca-ulrichdfcsv-dl-0-)
+  * [1. Read in the data](#1-read-in-the-data-2)
   * [2. Convert raw counts to relative abundances](#2-convert-raw-counts-to-relative-abundances)
   * [3. Calculate mean abundance for each Genus within each sample](#3-calculate-mean-abundance-for-each-genus-within-each-sample)
   * [4. Create the df to use for plotting](#4-create-the-df-to-use-for-plotting)
@@ -345,7 +345,9 @@ library(vegan) # Used for decostand
 rm(list = ls())
 ```
 
-#### 1. Read in the [data](https://www.dropbox.com/s/ns1wlpg7zkdkxca/ulrich.df.csv?dl=0)
+#### 1. Read in the data
+
+The data are available [here](https://www.dropbox.com/s/ns1wlpg7zkdkxca/ulrich.df.csv?dl=0).
 
 `
 ulrich.df <- read.csv("~/Dropbox/r code repository/Data/ulrich.df.csv", header = TRUE)
