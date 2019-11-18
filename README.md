@@ -9,7 +9,7 @@ Here I've included a number of R scripts for working with R data.
   
 - [Radial phylogenetic trees with relative abundances](#radial-phylogenetic-trees-with-relative-abundances)
    - [1. Read in the data](#1-read-in-the-data-1)
-   - [2. Deal with R adding X's to the abundance df during processing.](#2-deal-with-r-adding-x-s-to-the-abundance-df-during-processing)
+   - [2. Deal with R adding Xs to the abundance df during processing.](#2-deal-with-r-adding-xs-to-the-abundance-df-during-processing)
    - [3. Create a subsetting vector to use to prune the tree to taxa of interest](#3-create-a-subsetting-vector-to-use-to-prune-the-tree-to-taxa-of-interest)
    - [4. Prepare a df to use for tree-plotting](#4-prepare-a-df-to-use-for-tree-plotting)
    - [5. Now to create the phylogenetic tree to plot and add sample information](#5-now-to-create-the-phylogenetic-tree-to-plot-and-add-sample-information)
@@ -118,7 +118,7 @@ Rename the columns in the subset df to something useful:
 `
 names(asv.int.imp1) <- c("Taxa","Group")
 `
-#### 2. Deal with R adding X's to the abundance df during processing.
+#### 2. Deal with R adding Xs to the abundance df during processing.
 
 R doesn't like when column names start with a number. So any ASV identifiers that began with a digit now have an 'X' prepended. I found it was just easier to add X's to the taxonomy and tree files so we can link taxonomy and abundance.
 
