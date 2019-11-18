@@ -1,5 +1,8 @@
 # Visualization with R
-Here I've included a number of R scripts for working with R data.
+
+Here I've included a number of R scripts for making pretty figures with R. 
+
+Full disclosure: I love how the tidyverse has made manipulating R data a dream, but I'm very much not in love with making figures with ggplot. I use it when I have to, but still prefer base R over ggplot for making figures. Don't @ me.
 
 - [Venn diagrams](#venn-diagrams)
   - [1. Read in the data](#1-read-in-the-data)
