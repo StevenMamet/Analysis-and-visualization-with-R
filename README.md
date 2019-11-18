@@ -484,3 +484,5 @@ axis(side = 1, at = bp, labels = NA, lwd = 1, tck = -0.02)
 legend("right",inset=c(-1,0), fill = mycols2, legend=rownames(ulrich.bp5), border = NA, bty = "n", text.font = 3)
 box()
 ``````
+
+<img src = "https://user-images.githubusercontent.com/44586553/69078096-bfa6a700-09fc-11ea-9f96-3aad6d425c4b.jpg" width="500" height="600">
