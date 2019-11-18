@@ -22,7 +22,7 @@ Full disclosure: I love how the tidyverse has made manipulating R data a dream, 
   * [2. Convert raw counts to relative abundances](#2-convert-raw-counts-to-relative-abundances)
   * [3. Calculate mean abundance for each Genus within each sample](#3-calculate-mean-abundance-for-each-genus-within-each-sample)
   * [4. Create the df to use for plotting](#4-create-the-df-to-use-for-plotting)
-  * [5. Create stacked barplot sorted by mean abundance:](#5-create-stacked-barplot-sorted-by-mean-abundance-)
+  * [5. Create stacked barplot sorted by mean abundance](#5-create-stacked-barplot-sorted-by-mean-abundance)
 
 ---
 
@@ -483,7 +483,7 @@ mycols2 <- palette(c(
   rgb(255,127,187, maxColorValue=255)))
 ``````````````````````
 
-#### 5. Create stacked barplot sorted by mean abundance:
+#### 5. Create stacked barplot sorted by mean abundance
 
 ``````
 # Export at 6 x 8
