@@ -6,13 +6,13 @@ Here I've included a number of R scripts for working with R data.
   - [2. Summarize by environment (site-year combination)](#2-summarize-by-environment--site-year-combination-)
   - [3. Transpose, relabel column names, and convert to presence-absence](#3-transpose--relabel-column-names--and-convert-to-presence-absence)
   - [4. Venn diagram for the canola root microbiome.](#4-venn-diagram-for-the-canola-root-microbiome)
-
-
+  
 - [Radial phylogenetic trees with relative abundances](#radial-phylogenetic-trees-with-relative-abundances)
-  - [1. Read in the data](#1-read-in-the-data)
-  - [2. Deal with R adding X's to the abundance df during processing](#2-deal-with-r-adding-X's-to-the-abundance-df-during-processing)
-  - [3. Transpose, relabel column names, and convert to presence-absence](#3-transpose--relabel-column-names--and-convert-to-presence-absence)
-  - [4. Venn diagram for the canola root microbiome.](#4-venn-diagram-for-the-canola-root-microbiome)
+   - [1. Read in the data](#1-read-in-the-data-1)
+   - [2. Deal with R adding X's to the abundance df during processing.](#2-deal-with-r-adding-x-s-to-the-abundance-df-during-processing)
+   - [3. Create a subsetting vector to use to prune the tree to taxa of interest](#3-create-a-subsetting-vector-to-use-to-prune-the-tree-to-taxa-of-interest)
+   - [4. Prepare a df to use for tree-plotting](#4-prepare-a-df-to-use-for-tree-plotting)
+   - [5. Now to create the phylogenetic tree to plot and add sample information](#5-now-to-create-the-phylogenetic-tree-to-plot-and-add-sample-information)
 
 ---
 
