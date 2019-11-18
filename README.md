@@ -312,4 +312,5 @@ p2 <- p + geom_tiplab(aes(angle = angle, cex = 0.05, label = paste0('italic(', g
 p2
 ``````
 
-[Rplot.pdf](https://github.com/StevenMamet/Analysis-and-visualization-with-R/files/3859743/Rplot.pdf)
+![Rplot](https://user-images.githubusercontent.com/44586553/69073421-068f9f00-09f3-11ea-9755-df3f09e1631f.jpg)
+
