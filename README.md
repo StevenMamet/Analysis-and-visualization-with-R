@@ -7,6 +7,8 @@ Here I've included a number of R scripts for working with R data.
   - [3. Transpose, relabel column names, and convert to presence-absence](#3-transpose--relabel-column-names--and-convert-to-presence-absence)
   - [4. Venn diagram for the canola root microbiome.](#4-venn-diagram-for-the-canola-root-microbiome)
 
+---
+
 ### Venn diagrams
 
 ``````
@@ -58,6 +60,8 @@ eulerr_options(pointsize = 15)
 plot(venn.fit, fills = scales::alpha(c("cadetblue2","darkorchid1","darkseagreen2","khaki2"),0.5), quantities = T, lty = 0, legend = list(labels = c("L.2016","L.2017","M.2017","S.2017")))
 `````
 <img src="https://user-images.githubusercontent.com/44586553/68962285-d39e9e80-0799-11ea-834b-ba9aa8669793.jpg" width="400" height="300">
+
+---
 
 ### Radial phylogenetic trees with relative abundances
 
