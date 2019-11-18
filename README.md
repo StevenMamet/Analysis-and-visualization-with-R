@@ -71,7 +71,9 @@ plot(venn.fit, fills = scales::alpha(c("cadetblue2","darkorchid1","darkseagreen2
 `````
 <img src="https://user-images.githubusercontent.com/44586553/68962285-d39e9e80-0799-11ea-834b-ba9aa8669793.jpg" width="400" height="300">
 
+
 ---
+
 
 ### Radial phylogenetic trees with relative abundances
 
@@ -324,7 +326,9 @@ p2
 
 ![Rplot](https://user-images.githubusercontent.com/44586553/69073421-068f9f00-09f3-11ea-9755-df3f09e1631f.jpg)
 
+
 ---
+
 
 ### Stacked barplots
 
