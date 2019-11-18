@@ -5,17 +5,24 @@ Here I've included a number of R scripts for making pretty figures with R.
 Full disclosure: I love how the tidyverse has made manipulating R data a dream, but I'm very much not in love with making figures with ggplot. I use it when I have to, but still prefer base R over ggplot for making figures. Don't @ me.
 
 - [Venn diagrams](#venn-diagrams)
-  - [1. Read in the data](#1-read-in-the-data)
-  - [2. Summarize by environment (site-year combination)](#2-summarize-by-environment--site-year-combination-)
-  - [3. Transpose, relabel column names, and convert to presence-absence](#3-transpose--relabel-column-names--and-convert-to-presence-absence)
-  - [4. Venn diagram for the canola root microbiome.](#4-venn-diagram-for-the-canola-root-microbiome)
+  * [1. Read in the data](#1-read-in-the-data)
+  * [2. Summarize by environment (site-year combination)](#2-summarize-by-environment--site-year-combination-)
+  * [3. Transpose, relabel column names, and convert to presence-absence](#3-transpose--relabel-column-names--and-convert-to-presence-absence)
+  * [4. Venn diagram for the canola root microbiome.](#4-venn-diagram-for-the-canola-root-microbiome)
   
 - [Radial phylogenetic trees with relative abundances](#radial-phylogenetic-trees-with-relative-abundances)
-   - [1. Read in the data](#1-read-in-the-data-1)
-   - [2. Deal with R adding Xs to the abundance df during processing.](#2-deal-with-r-adding-xs-to-the-abundance-df-during-processing)
-   - [3. Create a subsetting vector to use to prune the tree to taxa of interest](#3-create-a-subsetting-vector-to-use-to-prune-the-tree-to-taxa-of-interest)
-   - [4. Prepare a df to use for tree-plotting](#4-prepare-a-df-to-use-for-tree-plotting)
-   - [5. Now to create the phylogenetic tree to plot and add sample information](#5-now-to-create-the-phylogenetic-tree-to-plot-and-add-sample-information)
+  * [1. Read in the data](#1-read-in-the-data-1)
+  * [2. Deal with R adding Xs to the abundance df during processing.](#2-deal-with-r-adding-xs-to-the-abundance-df-during-processing)
+  * [3. Create a subsetting vector to use to prune the tree to taxa of interest](#3-create-a-subsetting-vector-to-use-to-prune-the-tree-to-taxa-of-interest)
+  * [4. Prepare a df to use for tree-plotting](#4-prepare-a-df-to-use-for-tree-plotting)
+  * [5. Now to create the phylogenetic tree to plot and add sample information](#5-now-to-create-the-phylogenetic-tree-to-plot-and-add-sample-information)
+  
+- [Stacked barplots](#stacked-barplots)
+  * [1. Read in the [data](https://www.dropbox.com/s/ns1wlpg7zkdkxca/ulrich.df.csv?dl=0)](#1-read-in-the--data--https---wwwdropboxcom-s-ns1wlpg7zkdkxca-ulrichdfcsv-dl-0-)
+  * [2. Convert raw counts to relative abundances](#2-convert-raw-counts-to-relative-abundances)
+  * [3. Calculate mean abundance for each Genus within each sample](#3-calculate-mean-abundance-for-each-genus-within-each-sample)
+  * [4. Create the df to use for plotting](#4-create-the-df-to-use-for-plotting)
+  * [5. Create stacked barplot sorted by mean abundance:](#5-create-stacked-barplot-sorted-by-mean-abundance-)
 
 ---
 
