@@ -1,7 +1,5 @@
-# Analysis-and-visualization-with-R
+# Visualization with R
 Here I've included a number of R scripts for working with R data.
-
-## Visualization
 
 - [Venn diagrams](#venn-diagrams)
   - [1. Read in the data](#1-read-in-the-data)
