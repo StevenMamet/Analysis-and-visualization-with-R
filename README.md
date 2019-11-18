@@ -485,13 +485,16 @@ mycols2 <- palette(c(
 
 #### 5. Create stacked barplot sorted by mean abundance
 
-``````
-# Export at 6 x 8
-par(mar=c(5, 4, 4, 12), xpd=TRUE)
-bp <- barplot(ulrich.bp5, col = mycols2, border = NA, width = 2, ylim = c(105,-5), ylab = NULL)
+`````````
+# Export at 5.25 x 6.5
+par(mar=c(3.5, 3.5, 1, 10), xpd=NA)
+bp <- barplot(ulrich.bp5, col = mycols2, border = NA, width = 2, ylim = c(105,-5), yaxt = "n")
 axis(side = 1, at = bp, labels = NA, lwd = 1, tck = -0.02)
-legend("right",inset=c(-1,0), fill = mycols2, legend=rownames(ulrich.bp5), border = NA, bty = "n", text.font = 3)
+axis(side = 2, at = seq(0,100,20), labels = seq(100,0,-20), lwd = 1, tck = -0.02)
+mtext("Treatment", side = 1, line = 2.2)
+mtext("Relative abundance (%)", side = 2, line = 2.2)
+legend("right",inset=c(-0.37,0), fill = mycols2, legend=rownames(ulrich.bp5), border = NA, bty = "n", text.font = 3)
 box()
-``````
+`````````
 
 <img src = "https://user-images.githubusercontent.com/44586553/69078096-bfa6a700-09fc-11ea-9f96-3aad6d425c4b.jpg" width="500" height="600">
