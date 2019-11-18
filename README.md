@@ -533,6 +533,10 @@ p <- ggplot(data = hare, aes(x = year, y = mean))+
         axis.text.y = element_text(size = 12)) 
 ```````
 
+<img src="https://user-images.githubusercontent.com/44586553/69080251-3776d080-0a01-11ea-9fc2-564cb226b66e.jpg" width="500" height="400">
+
 #### 3. Animate the plot
 
+`
 p + transition_reveal(year)
+`
