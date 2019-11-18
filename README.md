@@ -23,7 +23,13 @@ Full disclosure: I love how the tidyverse has made manipulating R data a dream, 
   * [3. Calculate mean abundance for each Genus within each sample](#3-calculate-mean-abundance-for-each-genus-within-each-sample)
   * [4. Create the df to use for plotting](#4-create-the-df-to-use-for-plotting)
   * [5. Create stacked barplot sorted by mean abundance](#5-create-stacked-barplot-sorted-by-mean-abundance)
-
+  
+- [Animating time-series](#animating-time-series)
+  * [1. Read in the data](#1-read-in-the-data-3)
+  * [2. Basic line plot using ggplot](#2-basic-line-plot-using-ggplot)
+  * [3. Animate the plot](#3-animate-the-plot)
+  
+  
 ---
 
 ### Venn diagrams
